@@ -34,3 +34,12 @@
 ![Screenshot (209)](https://github.com/user-attachments/assets/e6d9beb4-dc18-46af-a290-b06908ebb77b)
 
 
+## Account Page
+**Description**: The account page allows users to view and edit their profile details, change account settings, and manage their preferences.
+![Screenshot (210)](https://github.com/user-attachments/assets/f291f234-afcb-4540-a4fe-b63fedd9c7e4)
+
+
+
+
+
+
