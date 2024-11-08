@@ -16,8 +16,21 @@
 ![Screenshot (206)](https://github.com/user-attachments/assets/deec5033-8b1f-411c-94b8-43d032a952ae)
 
 
+
 ## View Page Screenshot
+**Description**: This screenshot displays the single product view page, including product details, images, and purchase options.
+
 ![Screenshot (207)](https://github.com/user-attachments/assets/968a6e49-d0ad-41a5-93c4-4df9d2b77cec)
 
 
-**Description**: This screenshot displays the single product view page, including product details, images, and purchase options.
+### Login Page
+**Description**: The login page includes a simple, responsive form with fields for email and password.
+![Screenshot (208)](https://github.com/user-attachments/assets/ed5adae1-2b89-485e-becc-aba86a1f3cfa)
+
+
+
+### Registration Page
+**Description**: The registration page features a responsive form for user sign-up, including fields for email, password, and password confirmation.
+![Screenshot (209)](https://github.com/user-attachments/assets/e6d9beb4-dc18-46af-a290-b06908ebb77b)
+
+
