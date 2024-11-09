@@ -1562,6 +1562,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 2rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1817,6 +1825,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 576px) {
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1829,6 +1841,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:grid {

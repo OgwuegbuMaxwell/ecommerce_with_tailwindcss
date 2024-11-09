@@ -299,6 +299,7 @@
 
 
 
+
     <!-- ---- Account Wrapper ---- -->
      <div class="container lg:grid grid-cols-12 items-start gap-6 pt-4 pb-16">
         <!-- Side Bar -->
@@ -336,7 +337,7 @@
                         ">
                         Profile Information
                     </a>
-                    <a href="address.html" class="hover:text-primary transition capitalize block
+                    <a href="#" class="hover:text-primary transition capitalize block
                         ">
                         Manage Address
                     </a>
@@ -417,70 +418,117 @@
         <!-- End Side Bar -->
 
 
-        <!-- Account Content -->
-         <div class="col-span-9 grid md:grid-cols-3 gap-4 mt-6 lg:mt-0">
-            <!-- Single Card -->
-             <div class="shadow rounded bg-gray-100 px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium capitalize text-gray-800 text-lg">
-                        Personal Profile
-                    </h3>
-                    <a href="#" class="text-primary">
-                        Edit
-                    </a>
-                </div>
-                <div class="space-y-1">
-                    <h3 class="text-gray-700 font-medium">
-                        Ogwuegbu Maxwell
-                    </h3>
-                    <p class="text-gray-800">ogwuegbumaxwell@gmail.com</p>
-                    <p class="text-gray-800">(234) 6849 076</p>
-                </div>
-             </div>
-            <!-- End Single Card -->
+        <!-- Page Content -->
+         <div class="col-span-9 pt-5 pb-7 bg-gray-100 lg:mt-0 rounded px-6 sm:mt-6">
+           <form action="#">
+                <h3 class="text-lg font-medium capitalize mb-4">
+                    Manage Address
+                </h3>
+                <div class="space-y-4 ">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <!-- Single Input -->
+                         <div>
+                            <label for="full-name" class="text-gray-600 mb-2 block
+                                ">
+                                Full Name
+                            </label>
+                            <input type="text" class="input-box" value="Ogwuegbu Maxwell">
+                         </div>
+                        <!-- End Single Input -->
+                        <!-- Single Input -->
+                        <div>
+                            <label for="phone-number" class="text-gray-600 mb-2 block
+                                ">
+                                Phone Number
+                            </label>
+                            <input type="text" class="input-box" value="(234) 8490 943">
+                        </div>
+                    <!-- End Single Input -->
+                    </div>
 
-            <!-- Single Card -->
-            <div class="shadow rounded bg-gray-100 px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium capitalize text-gray-800 text-lg">
-                        Shipping Address
-                    </h3>
-                    <a href="address.html" class="text-primary">
-                        Edit
-                    </a>
-                </div>
-                <div class="space-y-1">
-                    <h3 class="text-gray-700 font-medium">
-                        Ogwuegbu Maxwell
-                    </h3>
-                    <p class="text-gray-800">ogwuegbumaxwell@gmail.com</p>
-                    <p class="text-gray-800">(234) 6849 076</p>
-                </div>
-            </div>
-            <!-- End Single Card -->
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <!-- Single Input -->
+                         <div>
+                            <label for="country" class="text-gray-600 mb-2 block
+                                ">
+                                Country
+                            </label>
+                            <select name="country" id="select-country" class="input-box">
+                                <option value="1">USA</option>
+                                <option value="1">Nigeria</option>
+                                <option value="1">Canada</option>
+                                <option value="1">Ghana</option>
+                            </select>
+                         </div>
+                        <!-- End Single Input -->
+                        <!-- Single Input -->
+                        <div>
+                            <label for="regioin" class="text-gray-600 mb-2 block
+                                ">
+                                Region
+                            </label>
+                            <select name="region" id="select-region" class="input-box">
+                                <option value="1">North Central</option>
+                                <option value="1">North East</option>
+                                <option value="1">South</option>
+                                <option value="1">South West</option>
+                            </select>
+                        </div>
+                    <!-- End Single Input -->
+                    </div>
 
-            <!-- Single Card -->
-            <div class="shadow rounded bg-gray-100 px-4 pt-6 pb-8">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-medium capitalize text-gray-800 text-lg">
-                        Billing Address
-                    </h3>
-                    <a href="address.html" class="text-primary">
-                        Edit
-                    </a>
+
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <!-- Single Input -->
+                         <div>
+                            <label for="city" class="text-gray-600 mb-2 block
+                                ">
+                                City
+                            </label>
+                            <select name="city" id="select-city" class="input-box">
+                                <option value="1">FCT</option>
+                                <option value="1">Lagos</option>
+                                <option value="1">Owerri</option>
+                                <option value="1">Onitcha</option>
+                            </select>
+                         </div>
+                        <!-- End Single Input -->
+                        <!-- Single Input -->
+                        <div>
+                            <label for="area" class="text-gray-600 mb-2 block
+                                ">
+                                Area
+                            </label>
+                            <select name="region" id="select-area" class="input-box">
+                                <option value="1">North Area</option>
+                                <option value="1">South Area</option>
+                                <option value="1">West Area</option>
+                            </select>
+                        </div>
+                    <!-- End Single Input -->
+                    </div>
+
+                    <div>
+                        <label for="area" class="text-gray-600 mb-2 block
+                            ">
+                            ddress
+                        </label>
+                        <input type="text" class="input-box" value="Central Area, FCT">
+                    </div>
+
+                    <div class="mt-6">
+                        <button type="submit" class="px-6 py-2 text-center text-white
+                            bg-primary border border-primary rounded hover:bg-transparent
+                            hover:text-primary transition uppercase font-roboto font-medium">
+                            Save Change
+                        </button>
+                    </div>
+
                 </div>
-                <div class="space-y-1">
-                    <h3 class="text-gray-700 font-medium">
-                        Ogwuegbu Maxwell
-                    </h3>
-                    <p class="text-gray-800">ogwuegbumaxwell@gmail.com</p>
-                    <p class="text-gray-800">(234) 6849 076</p>
-                </div>
-            </div>
-            <!-- End Single Card -->
+           </form>
 
          </div>
-        <!-- End account content -->
+        <!-- End Page content -->
 
      </div>
     <!-- ---- End Account Wrapper ---- -->

@@ -40,6 +40,10 @@
 
 
 
+## Manage Address Page
+**Description**: The manage address page allows users to add, edit, and delete their saved addresses. It features a user-friendly interface with responsive design for both desktop and mobile views.
+
+![Screenshot (211)](https://github.com/user-attachments/assets/0fa8c3f5-edbe-403f-91d7-a6f2db99e911)
 
 
 
