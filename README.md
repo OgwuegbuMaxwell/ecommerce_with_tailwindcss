@@ -63,3 +63,11 @@
 
 
 
+## Checkout Page
+**Description**: The Checkout page provides a streamlined process for users to complete their purchases. It includes a responsive design with sections for shipping details,  and order summary.
+
+![Screenshot (214)](https://github.com/user-attachments/assets/bf5bc3b9-4185-42a2-bf07-3debfc555fad)
+
+
+
+
