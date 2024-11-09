@@ -47,3 +47,11 @@
 
 
 
+
+## Change Password Page
+**Description**: The Change Password page features a responsive form for users to update their account password.
+
+![Screenshot (212)](https://github.com/user-attachments/assets/e480ab2f-2748-4136-9b83-1f7fa5bf4be3)
+
+
+
