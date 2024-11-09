@@ -55,3 +55,11 @@
 
 
 
+## Wishlist Page
+**Description**: The Wishlist page allows users to save and view their favorite products. It features a responsive layout and user-friendly interactions, making it easy to manage saved items.
+
+![Screenshot (213)](https://github.com/user-attachments/assets/753628fd-b2ae-4022-89cc-9d2645ffd2f4)
+
+
+
+
