@@ -70,4 +70,12 @@
 
 
 
+## Cart Page
+**Description**: The Cart page provides an overview of the selected products, including quantity, and total price. The design is responsive and optimized for user interactions.
+
+![Screenshot (217)](https://github.com/user-attachments/assets/fcc07bc0-879e-4142-bddc-e46132e859a1)
+
+
+
+
 

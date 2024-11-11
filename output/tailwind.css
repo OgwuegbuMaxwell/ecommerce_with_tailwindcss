@@ -1017,6 +1017,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.5rem;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -1463,6 +1467,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -1560,6 +1569,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 2.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1618,6 +1637,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .text-left {
@@ -1928,6 +1951,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0px;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -2070,8 +2097,20 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: span 2 / span 2;
   }
 
+  .xl\:col-span-9 {
+    grid-column: span 9 / span 9;
+  }
+
+  .xl\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
+  }
+
+  .xl\:mr-24 {
+    margin-right: 6rem;
   }
 
   .xl\:grid {
@@ -2092,6 +2131,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .xl\:gap-8 {
     gap: 2rem;
+  }
+
+  .xl\:pr-28 {
+    padding-right: 7rem;
   }
 
   .xl\:text-6xl {
